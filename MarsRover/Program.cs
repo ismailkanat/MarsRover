@@ -16,7 +16,7 @@ namespace MarsRover
             marsRover.AddRover(3, 3, 'E');
             marsRover.SendCommand("MMRMMRMRRM");
             marsRover.GetPositions();
-            Console.Read();
+            Console.ReadLine();
         }
     }
 
